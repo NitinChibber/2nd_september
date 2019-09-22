@@ -5,7 +5,7 @@ import java.net.URL
 
 node{
 	stage('Git Checkout'){
-	    git 'https://github.com/npsoni88/DevOpsClassCodes.git'
+	    git 'https://github.com/NitinChibber/DevOpsClassCodes.git'
 	}
 	stage('Compile'){
 	    withMaven(maven:'mymaven'){
