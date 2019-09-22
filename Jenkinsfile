@@ -23,7 +23,7 @@ node{
 	}
 	stage('Package'){
 		withMaven(maven:'mymaven'){
-	      ##  sh 'mvn package'
+	        sh 'mvn package'
 	    }
 	}
 }
